@@ -34,4 +34,4 @@ root                    (project root folder)
 
 ## Authors
 ---
-* TODO: Add your name and email here
+* Benson Ostler bensonmalcolm9@gmail.com
