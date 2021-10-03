@@ -49,8 +49,11 @@ class Director:
             self (Director): An instance of Director.
         """
         points = self.thrower.get_points()
-        self.score += points
-        
+        if points > 0:
+            self.score += points
+        else:
+            self.score = 0
+
     def do_outputs(self):
         """Outputs the important game information for each round of play. In 
         this case, that means the dice that were rolled and the score.
