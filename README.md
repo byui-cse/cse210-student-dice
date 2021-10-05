@@ -34,4 +34,4 @@ root                    (project root folder)
 
 ## Authors
 ---
-* TODO: Add your name and email here
+* TODO: Neo Adam Bontia | neo.adam.bontia@gmail.com | bon21004@byui.edu
