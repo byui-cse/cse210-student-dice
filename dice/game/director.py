@@ -65,3 +65,4 @@ class Director:
             self.keep_playing = (choice == "y")
         else:
             self.keep_playing = False
+            print("Better luck next time")

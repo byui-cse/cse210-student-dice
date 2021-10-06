@@ -34,4 +34,4 @@ root                    (project root folder)
 
 ## Authors
 ---
-* TODO: Add your name and email here
+Alan Crisanto -  cri21005@byu.edu / alanvcrisanto@gmail.com 
