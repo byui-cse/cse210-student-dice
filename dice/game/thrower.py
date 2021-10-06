@@ -1,23 +1,19 @@
 import random
 
-class thrower:
+class Thrower:
     def __init__(self):
-        dice = 5
-        num_throws = 0
+        self.dice = []
+        self.num_throws = 0
     
     def can_throw(self):
-        if dice == 5 or dice == 1 or num_throws == 0:
-            play = True
-            return play
-        else: 
-            play = False
-            return play
+        return (self.dice.count(5) > 0 or self.dice.count(1) > 0 or self.num_throws == 0)
 
     def get_points(self):
-        if dice == 1:
-            points = points + 100
-        elif dice == 5:
-            points = points + 50
+        return self.dice.count(5) * 50 + self.dice.count(1) * 100
 
     def throw_dice(self):
-        dice = []
+        self.dice.clear()
+        for i in range(5):
+            result = random.randint(1, 6)
+            self.dice.append(result)
+        self.num_throws += 1
